@@ -22,7 +22,7 @@ function Landing() {
           <span>São Paulo</span>
         </div>
 
-        <Link to="/" className="enter-app">
+        <Link to="/app" className="enter-app">
           <FiArrowRight size={26} color="rgba(0, 0, 0, 0.6" />
         </Link>
       </div>
