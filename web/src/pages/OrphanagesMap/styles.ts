@@ -50,6 +50,7 @@ export const PageMap = styled.div`
       border-radius: 20px;
       box-shadow: none;
     }
+
     .leaflet-popup-content {
       color: #0089a5;
       font-size: 20px;
@@ -58,6 +59,7 @@ export const PageMap = styled.div`
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       a {
         width: 40px;
         height: 40px;
@@ -69,12 +71,13 @@ export const PageMap = styled.div`
         align-items: center;
       }
     }
+
     .leaflet-popup-tip-container {
       display: none;
     }
   }
 
-  > a {
+  & > a {
     z-index: 10;
 
     position: absolute;
@@ -89,6 +92,7 @@ export const PageMap = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+
     transition: background-color 0.2s;
 
     &:hover {
