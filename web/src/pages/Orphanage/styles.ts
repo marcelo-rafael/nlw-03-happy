@@ -156,14 +156,20 @@ export const OpenDetails = styled.div`
   }
 `;
 
+export const Hour = styled.div`
+  background: linear-gradient(149.97deg, #e6f7fb 8.13%, #ffffff 92.67%);
+  border: 1px solid #b3dae2;
+  color: #5c8599;
+`;
+
 export const OpenOnWeekends = styled.div`
   background: linear-gradient(154.16deg, #edfff6 7.85%, #ffffff 91.03%);
   border: 1px solid #a1e9c5;
   color: #37c77f;
 `;
 
-export const Hour = styled.div`
-  background: linear-gradient(149.97deg, #e6f7fb 8.13%, #ffffff 92.67%);
-  border: 1px solid #b3dae2;
-  color: #5c8599;
+export const DontOpen = styled.div`
+  background: linear-gradient(154.16deg, #fdf0f5 7.85%, #ffffff 91.03%);
+  border: 1px solid #ffbcd4;
+  color: #ff669d;
 `;

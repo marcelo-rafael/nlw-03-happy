@@ -20,8 +20,6 @@ interface PropsOrphanage {
 const OrphanagesMap: React.FC = () => {
   const [orphanages, setOrphanages] = useState<PropsOrphanage[]>([]);
 
-  console.log(orphanages);
-
   useEffect(() => {
     api.get('orphanages').then(response => {
       setOrphanages(response.data);
