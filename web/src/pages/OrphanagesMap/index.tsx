@@ -1,11 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiPlus, FiArrowRight } from 'react-icons/fi';
+import { FiPlus } from 'react-icons/fi';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import Leaflet from 'leaflet';
 
 import mapMarkerImg from '../../images/map-marker.svg';
-// import mapIcon from '../../utils/mapIcon';
 
 import { PageMap } from './styles';
 
