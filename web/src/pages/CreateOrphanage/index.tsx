@@ -1,3 +1,4 @@
+/* eslint-disable camelcase */
 import React, { useState, FormEvent, ChangeEvent } from 'react';
 import { Map, Marker, TileLayer } from 'react-leaflet';
 import { LeafletMouseEvent } from 'leaflet';
@@ -24,23 +25,21 @@ const CreateOrphanage: React.FC = () => {
   const [name, setName] = useState('');
   const [about, setAbout] = useState('');
   const [instructions, setInstructions] = useState('');
-  // eslint-disable-next-line camelcase
   const [opening_hours, setOpeningHours] = useState('');
-  // eslint-disable-next-line camelcase
   const [open_on_weekends, setOpenOnWeekends] = useState(true);
   const [images, setImages] = useState<File[]>([]);
   const [previewImages, setPreviewImages] = useState<string[]>([]);
 
-  function handleMapClick(event: LeafletMouseEvent): void {
+  const handleMapClick = (event: LeafletMouseEvent): void => {
     const { lat, lng } = event.latlng;
 
     setPosition({
       latitude: lat,
       longitude: lng,
     });
-  }
+  };
 
-  function handleSelectImages(event: ChangeEvent<HTMLInputElement>): void {
+  const handleSelectImages = (event: ChangeEvent<HTMLInputElement>): void => {
     if (!event.target.files) {
       return;
     }
@@ -54,9 +53,9 @@ const CreateOrphanage: React.FC = () => {
     });
 
     setPreviewImages(selectedImagesPreview);
-  }
+  };
 
-  async function handleSubmit(event: FormEvent) {
+  const handleSubmit = async (event: FormEvent): Promise<void> => {
     event.preventDefault();
 
     const { latitude, longitude } = position;
@@ -77,10 +76,11 @@ const CreateOrphanage: React.FC = () => {
 
     await api.post('orphanages', data);
 
-    alert('Cadastro realizado com sucesso');
+    // eslint-disable-next-line no-alert
+    alert('Cadastro realizado com sucesso!');
 
     history.push('/app');
-  }
+  };
 
   return (
     <PageCreateOrphanage>

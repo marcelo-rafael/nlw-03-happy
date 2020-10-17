@@ -30,12 +30,10 @@
   ],
   "rules": {
     "prettier/prettier": "error",
-    "react/jsx-one-expression-per-line": "off",
-    "react/jsx-props-no-spreading": "off",
-    "react/prop-types": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "no-unused-expressions": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/jsx-filename-extension": [
       1,
       {
@@ -45,6 +43,10 @@
       }
     ],
     "import/prefer-default-export": "off",
+    "import/no-duplicates": "off",
+    "@typescript-eslint/camelcase": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/prop-types": "off",
     "@typescript-eslint/explicit-function-return-type": [
       "error",
       {
@@ -58,6 +60,9 @@
         "ts": "never",
         "tsx": "never"
       }
+    ],
+    "jsx-a11y/label-has-associated-control": [
+      "off"
     ]
   },
   "settings": {
