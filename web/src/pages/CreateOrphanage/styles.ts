@@ -101,6 +101,10 @@ export const InputBlock = styled.div`
     padding: 0 16px;
   }
 
+  input[type='file'] {
+    visibility: hidden;
+  }
+
   textarea {
     min-height: 120px;
     max-height: 240px;
@@ -134,16 +138,18 @@ export const InputBlock = styled.div`
   }
 `;
 
-export const UploadedImage = styled.div`
+export const ImagesContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-gap: 16px;
+
   label {
     height: 96px;
     background: #f5f8fa;
     border: 1px dashed #96d2f0;
     border-radius: 20px;
     cursor: pointer;
+
     display: flex;
     justify-content: center;
     align-items: center;
