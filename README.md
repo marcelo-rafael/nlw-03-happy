@@ -38,7 +38,7 @@
 
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/home.png" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/Home.png" />
 </h1>
 
 
