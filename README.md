@@ -34,13 +34,12 @@
   <a href="https://github.com/marcelo-rafael/nlw-03-happy/stargazers">
     <img alt="Contributors" src="https://img.shields.io/github/contributors/marcelo-rafael/nlw-03-happy?style=flat-square&color=informational">
   </a>
-  
-  
-  
 </p>
 
 
-
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/happy.png" />
+</h1>
 
 
 
