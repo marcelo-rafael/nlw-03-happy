@@ -46,6 +46,20 @@
 </h4>
 
 
+
+# :pushpin: Table of Contents
+
+* [About](#computer-about)
+* [Features](#rocket-features)
+* [Installation](#construction_worker-installation)
+* [Getting Started](#runner-getting-started)
+* [FAQ](#postbox-faq)
+* [Found a bug? Missing a specific feature?](#bug-issues)
+* [Contributing](#tada-contributing)
+* [Author](#closed_book-author)
+* [License](#closed_book-license)
+
+
 <p align="center">
  <a href="#about">About</a> •
  <a href="#features">Features</a> •
@@ -59,7 +73,7 @@
 </p>
 
 
-## 💻 About
+# :computer: About
 
 Happy is an application that connects people to institutional care homes to make many children's day happier
  💜
@@ -71,23 +85,23 @@ NLW is an online experience with lots of practical content, challenges and hacks
 
 ---
 
-## ⚙️ Features
+# :rocket: Features
 
-- [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
-  - [x] uma imagem do ponto de coleta
-  - [x] nome da entidade, email e whatsapp
-  - [x] e o endereço para que ele possa aparecer no mapa
-  - [x] além de selecionar um ou mais ítens de coleta: 
-    - lâmpadas
-    - pilhas e baterias
-    - papéis e papelão
-    - resíduos eletrônicos
-    - resíduos orgânicos
-    - óleo de cozinha
+- [x] Companies or entities can register on the web platform by sending:
+   - [x] an image of the collection point
+   - [x] entity name, email and whatsapp
+   - [x] and the address so that it can appear on the map
+   - [x] in addition to selecting one or more collection items:
+     - lamps
+     - Batteries
+     - papers and cardboard
+     - electronic waste
+     - organic waste
+     - kitchen oil
 
-- [x] Os usuários tem acesso ao aplicativo móvel, onde podem:
-  - [x] navegar pelo mapa para ver as instituições cadastradas
-  - [x] entrar em contato com a entidade através do E-mail ou do WhatsApp
+- [x] Users have access to the mobile application, where they can:
+   - [x] browse the map to see the registered institutions
+   - [x] contact the entity via E-mail or WhatsApp
 
 ---
 
@@ -107,8 +121,6 @@ The application layout is available on Figma:
 
 ## 🧠 Challenge
 
-
-
 In the following link you can find the guide in Notion regarding the proposed challenges so that you can go the extra mile and further increase this application. There you will also find a guide showing the entire step by step of how to deploy both the backend and the frontend.
 
 
@@ -118,76 +130,76 @@ In the following link you can find the guide in Notion regarding the proposed ch
 
 
 
-## 🚀 Como executar o projeto
+## 🚀 How it works
 
-Este projeto é divido em três partes:
-1. Backend (pasta server) 
-2. Frontend (pasta web)
-3. Mobile (pasta mobile)
+This project is divided into three parts:
+1. Backend (server folder)
+2. Frontend (web folder)
+3. Mobile (mobile folder)
 
-💡Tanto o Frontend quanto o Mobile precisam que o Backend esteja sendo executado para funcionar.
+Both Frontend and Mobile need the Backend to be running to work.
 
-### Pré-requisitos
+### Pre-requisites
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+Before you begin, you will need to have the following tools installed on your machine:
+[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
-#### 🎲 Rodando o Backend (servidor)
+#### Running the Backend (server)
 
 ```bash
 
-# Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+# Clone this repository
+$ git clone https://github.com/marcelo-rafael/nlw-01-ecoleta
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd README-ecoleta
+# Access the project folder cmd/terminal
+$ cd nlw-01-ecoleta
 
-# Vá para a pasta server
+# go to the server folder
 $ cd server
 
-# Instale as dependências
+# install the dependencies
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development mode
 $ npm run dev:server
 
-# O servidor inciará na porta:3333 - acesse http://localhost:3333 
+# The server will start at port: 3333 - go to http://localhost:3333
 
 ```
 <p align="center">
-  <a href="https://github.com/tgmarinho/README-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 
-#### 🧭 Rodando a aplicação web (Frontend)
+#### Running the web application (Frontend)
 
 ```bash
 
-# Clone este repositório
-$ git clone git@github.com:tgmarinho/README-ecoleta.git
+# Clone this repository
+$ git clone https://github.com/marcelo-rafael/nlw-01-ecoleta
 
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd README-ecoleta
+# Access the project folder in your terminal
+$ cd nlw-01-ecoleta
 
-# Vá para a pasta da aplicação Front End
+# Go to the Front End application folder
 $ cd web
 
-# Instale as dependências
+# Install the dependencies
 $ npm install
 
-# Execute a aplicação em modo de desenvolvimento
+# Run the application in development mode
 $ npm run start
 
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+# The application will open on the port: 3000 - go to http://localhost:3000
 
 ```
 
 ---
 
-## 🛠 Tecnologias
+## Tech Stack
 
-As seguintes ferramentas foram usadas na construção do projeto:
+The following tools were used in the construction of the project:
 
 #### **Website**  ([React](https://reactjs.org/)  +  [TypeScript](https://www.typescriptlang.org/))
 
@@ -198,9 +210,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[React Leaflet](https://react-leaflet.js.org/)**
 -   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
 
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/web/package.json)
+> See the file  [package.json](https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/web/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#server-nodejs--typescript)**Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Express](https://expressjs.com/)**
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
@@ -212,9 +224,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Celebrate](https://github.com/arb/celebrate)**
 -   **[Joi](https://github.com/hapijs/joi)**
 
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/server/package.json)
+> See the file  [package.json](https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/server/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#mobile-react-native--typescript)**Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
+#### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Expo](https://expo.io/)**
 -   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
@@ -226,26 +238,29 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
 -   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
-> Veja o arquivo  [package.json](https://github.com/tgmarinho/README-ecoleta/blob/master/mobile/package.json)
+> See the file  [package.json](https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/mobile/package.json)
 
-#### [](https://github.com/tgmarinho/Ecoleta#utilit%C3%A1rios)**Utilitários**
+---
 
--   Protótipo:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
+#### **Utilities**
+
+-   Prototype:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
 -   API:  **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)**  →  **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**,  **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
 -   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 -   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 -   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
--   Teste de API:  **[Insomnia](https://insomnia.rest/)**
--   Ícones:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
--   Fontes:  **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**,  **[Roboto](https://fonts.google.com/specimen/Roboto)**
+-   API Test:  **[Insomnia](https://insomnia.rest/)**
+-   Icons:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
+-   Fonts:  **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**,  **[Roboto](https://fonts.google.com/specimen/Roboto)**
 
+---
 
 
 
 ---
 
-## 💪 Como contribuir para o projeto
+## :tada: Contributing
 
 1. Fork the project.
 2. Create a new branch with your changes: `git checkout -b my-feature`
@@ -264,15 +279,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ---
 
-## 📝 Licença
+# :closed_book: License
 
-Este projeto esta sobe a licença [MIT](./LICENSE).
+This project is under the [MIT](./LICENSE).
 
 
-Feito com ❤️ por Marcelo Rafael Gonçalves 👋🏽 [Entre em contato!](https://www.linkedin.com/in/marcelo-rafael-gonçalves/)
-
----
-
-##  Versões do README
-
-[Português 🇧🇷](./README.md)  |  [English 🇺🇸](./README-en.md)
+Made with love by [Marcelo Rafael](https://github.com/marcelo-rafael) 💜🚀
