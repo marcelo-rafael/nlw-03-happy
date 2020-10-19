@@ -54,7 +54,6 @@
 * [Layout](#art-layout)
 * [Challenge](#bookmark_tabs-challenge)
 * [Installation](#construction_worker-installation)
-* [FAQ](#postbox-faq)
 * [Found a bug? Missing a specific feature?](#bug-issues)
 * [Contributing](#tada-contributing)
 * [Author](#man-author)
