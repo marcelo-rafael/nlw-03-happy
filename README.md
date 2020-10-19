@@ -54,19 +54,11 @@
 * [Layout](#art-layout)
 * [Challenge](#bookmark_tabs-challenge)
 * [Installation](#construction_worker-installation)
+* [Tech Stack](#rocket-tech-stack)
 * [Found a bug? Missing a specific feature?](#bug-issues)
 * [Contributing](#tada-contributing)
 * [Author](#man-author)
 * [License](#closed_book-license)
-
-
-<p align="center">
-
-
-
- <a href="#tech-stack">Tech Stack</a> • 
-
-</p>
 
 
 # :computer: About
@@ -188,7 +180,7 @@ $ yarn start
 
 ---
 
-# Tech Stack
+# :rocket: Tech Stack
 
 The following tools were used in the construction of the project:
 
@@ -233,7 +225,7 @@ The following tools were used in the construction of the project:
 
 ---
 
-#### **Utilities**
+# :wrench: Utilities
 
 -   Prototype:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Happy)](https://www.figma.com/file/Agmnpmo6MxV7C6QyNBUWKR/Happy-Web-(Copy)?node-id=0%3A1)**
 -   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
