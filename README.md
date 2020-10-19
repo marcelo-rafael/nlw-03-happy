@@ -1,35 +1,57 @@
+<h1 align="center">
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/logo.png" />
+</h1>
+
+
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/tgmarinho/README-ecoleta?color=%2304D361">
+  <img alt="Author" src="https://img.shields.io/badge/author-Marcelo%20Rafael-brightgreen">
+	
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelo-rafael-brightgreen">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelo-rafael/nlw-03-happy?color=%2304D361">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/tgmarinho/README-ecoleta">
-
-  <a href="https://www.twitter.com/tgmarinho/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2FREADME-ecoleta">
-  </a>
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcelo-rafael/nlw-03-happy">
   
-  <a href="https://github.com/tgmarinho/README-ecoleta/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/tgmarinho/README-ecoleta">
+  <a href="https://github.com/marcelo-rafael/happy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marcelo-rafael/nlw-03-happy">
+  </a>
+
+  <a href="https://github.com/marcelo-rafael/nlw-03-happy/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/marcelo-rafael/nlw-03-happy">
+  </a>
+
+  <a href="https://github.com/raphabarreto/happy/blob/master/LICENSE.md">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <a>
+</p>
+
+
+<p align="center">
+	<img alt="Author" src="https://img.shields.io/badge/author-Marcelo%Rafael">
+	
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelo-rafael/nlw-03-happy?color=%2304D361">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcelo-rafael/nlw-03-happy">
+
+
+  
+  <a href="https://github.com/marcelo-rafael/nlw-03-happy/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marcelo-rafael/nlw-03-happy">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/tgmarinho/README-ecoleta/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tgmarinho/README-ecoleta?style=social">
+   <a href="https://github.com/marcelo-rafael/nlw-03-happy/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/marcelo-rafael/nlw-03-happy?style=social">
   </a>
-
-  <a href="https://rocketseat.com.br">
-    <img alt="Feito pela Rocketseat" src="https://img.shields.io/badge/feito%20por-Rocketseat-%237519C1">
-  </a>
-  
-  <a href="https://blog.rocketseat.com.br/">
-    <img alt="Stargazers" src="https://img.shields.io/badge/Blog-Rocketseat-%237159c1?style=flat&logo=ghost">
-    </a>
-  
  
 </p>
-<h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/banner.png" />
-</h1>
+
+
+
+
+
+
+
 
 <h4 align="center"> 
 	🚧  Ecoleta ♻️ Concluído 🚀 🚧
