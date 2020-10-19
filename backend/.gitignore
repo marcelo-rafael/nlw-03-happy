@@ -2,6 +2,13 @@
 
 # dependencies
 /node_modules
+yarn.lock
+
+.env
+dist
+
+uploads/*
+!uploads/.gitkeep
 /.pnp
 .pnp.js
 
