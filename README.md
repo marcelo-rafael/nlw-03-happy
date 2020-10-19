@@ -7,7 +7,6 @@
 <p align="center">
   <img alt="Author" src="https://img.shields.io/badge/author-Marcelo%20Rafael-brightgreen">
 	
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelo-rafael-brightgreen">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelo-rafael/nlw-03-happy?color=%2304D361">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcelo-rafael/nlw-03-happy">
@@ -23,21 +22,6 @@
   <a href="https://github.com/raphabarreto/happy/blob/master/LICENSE.md">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a>
-</p>
-
-
-<p align="center">
-	<img alt="Author" src="https://img.shields.io/badge/author-Marcelo%Rafael">
-	
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/marcelo-rafael/nlw-03-happy?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/marcelo-rafael/nlw-03-happy">
-
-
-  
-  <a href="https://github.com/marcelo-rafael/nlw-03-happy/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/marcelo-rafael/nlw-03-happy">
-  </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/marcelo-rafael/nlw-03-happy/stargazers">
