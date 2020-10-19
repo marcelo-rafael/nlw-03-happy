@@ -149,6 +149,9 @@ $ cd backend
 # install the dependencies
 $ yarn install
 
+#After that, continue in the root folder and run the following commands:
+$ yarn typeorm migration:run
+
 # Run the application in development mode
 $ yarn dev
 
