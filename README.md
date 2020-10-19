@@ -42,7 +42,7 @@
 </h1>
 
 <h4 align="center"> 
-	🚧  Happy ♻️ Finished 🚀 🚧
+	🚧  Happy 🚀 Finished 🚀 🚧
 </h4>
 
 
