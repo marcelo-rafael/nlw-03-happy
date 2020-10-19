@@ -38,7 +38,7 @@
 
 
 <h1 align="center">
-    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/happy .png" />
+    <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/home.png" />
 </h1>
 
 
@@ -46,32 +46,35 @@
 
 
 <h4 align="center"> 
-	🚧  Ecoleta ♻️ Concluído 🚀 🚧
+	🚧  Happy ♻️ Finished 🚀 🚧
 </h4>
 
+
 <p align="center">
- <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> •
- <a href="#-layout">Layout</a> • 
- <a href="#-como-executar-o-projeto">Como executar</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-contribuidores">Contribuidores</a> • 
- <a href="#-autor">Autor</a> • 
- <a href="#user-content--licença">Licença</a>
+ <a href="#about">About</a> •
+ <a href="#features">Features</a> •
+ <a href="#layout">Layout</a> • 
+ <a href="#how-it-works">How it works</a> • 
+ <a href="#tech-stack">Tech Stack</a> • 
+ <a href="#contributors">Contributors</a> • 
+ <a href="#author">Author</a> • 
+ <a href="#user-content-license">License</a>
 </p>
 
 
-## 💻 Sobre o projeto
+## 💻 About
 
-♻️ Ecoleta - é uma forma de conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos as pessoas que precisam descartar seus resíduos de maneira ecológica.
+Happy is an application that connects people to institutional care homes to make many children's day happier
+ 💜
 
 
-Projeto desenvolvido durante a **NLW - Next Level Week** oferecida pela [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+Project developed during the **NLW - Next Level Week** offered by
+ [Rocketseat](https://blog.rocketseat.com.br/primeira-next-level-week/).
+NLW is an online experience with lots of practical content, challenges and hacks where the content is available for a week.
 
 ---
 
-## ⚙️ Funcionalidades
+## ⚙️ Features
 
 - [x] Empresas ou entidades podem se cadastrar na plataforma web enviando:
   - [x] uma imagem do ponto de coleta
@@ -93,27 +96,17 @@ O NLW é uma experiência online com muito conteúdo prático, desafios e hacks 
 
 ## 🎨 Layout
 
-O layout da aplicação está disponível no Figma:
+The application layout is available on Figma:
 
-<a href="https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta?node-id=136%3A546">
-  <img alt="Made by tgmarinho" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
+<a href="https://www.figma.com/file/Agmnpmo6MxV7C6QyNBUWKR/Happy-Web-(Copy)?node-id=0%3A1">
+  <img alt="Made by marcelo-rafael" src="https://img.shields.io/badge/Acessar%20Layout%20-Figma-%2304D361">
 </a>
 
 
 ### Mobile
 
 <p align="center">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/home-mobile.png" width="200px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/detalhes-mobile.svg" width="200px">
-</p>
-
-### Web
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/web.svg" width="400px">
-
-  <img alt="NextLevelWeek" title="#NextLevelWeek" src="./assets/sucesso-web.svg" width="400px">
+  <img alt="NextLevelWeek" title="#NextLevelWeek" src=".github/happy .png">  
 </p>
 
 ---
