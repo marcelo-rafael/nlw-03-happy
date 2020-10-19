@@ -54,7 +54,6 @@
 * [Layout](#art-layout)
 * [Challenge](#bookmark_tabs-challenge)
 * [Installation](#construction_worker-installation)
-* [Getting Started](#runner-getting-started)
 * [FAQ](#postbox-faq)
 * [Found a bug? Missing a specific feature?](#bug-issues)
 * [Contributing](#tada-contributing)
@@ -158,7 +157,7 @@ $ yarn dev
 
 ```
 <p align="center">
-  <a href="https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/Insomnia_API_Ecoletajson.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://github.com/marcelo-rafael/nlw-03-happy/blob/master/Insomnia_API_Happy.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 
@@ -167,19 +166,19 @@ $ yarn dev
 ```bash
 
 # Clone this repository
-$ git clone https://github.com/marcelo-rafael/nlw-01-ecoleta
+$ git clone https://github.com/marcelo-rafael/nlw-03-ecoleta
 
 # Access the project folder in your terminal
-$ cd nlw-01-ecoleta
+$ cd nlw-03-happy
 
 # Go to the Front End application folder
 $ cd web
 
 # Install the dependencies
-$ npm install
+$ yarn install
 
 # Run the application in development mode
-$ npm run start
+$ yarn start
 
 # The application will open on the port: 3000 - go to http://localhost:3000
 
@@ -187,7 +186,7 @@ $ npm run start
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 The following tools were used in the construction of the project:
 
@@ -198,51 +197,49 @@ The following tools were used in the construction of the project:
 -   **[Axios](https://github.com/axios/axios)**
 -   **[Leaflet](https://react-leaflet.js.org/en/)**
 -   **[React Leaflet](https://react-leaflet.js.org/)**
--   **[React Dropzone](https://github.com/react-dropzone/react-dropzone)**
+-   **[Styled Components](https://styled-components.com/)**
 
-> See the file  [package.json](https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/web/package.json)
+> See the file  [package.json](https://github.com/marcelo-rafael/nlw-03-happy/blob/master/web/package.json)
 
 #### **Server**  ([NodeJS](https://nodejs.org/en/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Express](https://expressjs.com/)**
+-   **[Express-Async-Errors](https://www.npmjs.com/package/express-async-errors)**
 -   **[CORS](https://expressjs.com/en/resources/middleware/cors.html)**
--   **[KnexJS](http://knexjs.org/)**
+-   **[TypeORM](https://typeorm.io/#/)**
 -   **[SQLite](https://github.com/mapbox/node-sqlite3)**
--   **[ts-node](https://github.com/TypeStrong/ts-node)**
--   **[dotENV](https://github.com/motdotla/dotenv)**
 -   **[Multer](https://github.com/expressjs/multer)**
--   **[Celebrate](https://github.com/arb/celebrate)**
--   **[Joi](https://github.com/hapijs/joi)**
+-   **[Yup](https://www.npmjs.com/package/yup)**
 
-> See the file  [package.json](https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/server/package.json)
+> See the file  [package.json](https://github.com/marcelo-rafael/nlw-03-happy/blob/main/backend/package.json)
 
 #### **Mobile**  ([React Native](http://www.reactnative.com/)  +  [TypeScript](https://www.typescriptlang.org/))
 
 -   **[Expo](https://expo.io/)**
 -   **[Expo Google Fonts](https://github.com/expo/google-fonts)**
--   **[React Navigation](https://reactnavigation.org/)**
--   **[React Native Maps](https://github.com/react-native-community/react-native-maps)**
--   **[Expo Constants](https://docs.expo.io/versions/latest/sdk/constants/)**
--   **[React Native SVG](https://github.com/react-native-community/react-native-svg)**
+-   **[Expo image-picker](https://docs.expo.io/versions/latest/sdk/imagepicker/)**
+-   **[Expo StatusBar](https://docs.expo.io/versions/latest/react-native/statusbar/)**
+-   **[react-native-gesture-handler](https://www.npmjs.com/package/react-native-gesture-handler)**
+-   **[react-native-maps](https://www.npmjs.com/package/react-native-maps)**
+-   **[React Native Reanimated](https://www.npmjs.com/package/react-native-reanimated)**
+-   **[react-native-safe-area-context](https://www.npmjs.com/package/react-native-safe-area-context)**
+-   **[react-native-screens](https://www.npmjs.com/package/react-native-screens)**
+-   **[react-native-web](https://www.npmjs.com/package/react-native-web)**
 -   **[Axios](https://github.com/axios/axios)**
--   **[Expo Location](https://docs.expo.io/versions/latest/sdk/location/)**
--   **[Expo Mail Composer](https://docs.expo.io/versions/latest/sdk/mail-composer/)**
 
-> See the file  [package.json](https://github.com/marcelo-rafael/nlw-01-ecoleta/blob/master/mobile/package.json)
+> See the file  [package.json](https://github.com/marcelo-rafael/nlw-03-happy/blob/main/mobile/package.json)
 
 ---
 
 #### **Utilities**
 
--   Prototype:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Ecoleta)](https://www.figma.com/file/1SxgOMojOB2zYT0Mdk28lB/Ecoleta)**
--   API:  **[IBGE API](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)**  →  **[API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**,  **[API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
+-   Prototype:  **[Figma](https://www.figma.com/)**  →  **[Protótipo (Happy)](https://www.figma.com/file/Agmnpmo6MxV7C6QyNBUWKR/Happy-Web-(Copy)?node-id=0%3A1)**
 -   Maps:  **[Leaflet](https://react-leaflet.js.org/en/)**
 -   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**  → Extensions:  **[SQLite](https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite)**
 -   Markdown:  **[StackEdit](https://stackedit.io/)**,  **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 -   Commit Conventional:  **[Commitlint](https://github.com/conventional-changelog/commitlint)**
 -   API Test:  **[Insomnia](https://insomnia.rest/)**
 -   Icons:  **[Feather Icons](https://feathericons.com/)**,  **[Font Awesome](https://fontawesome.com/)**
--   Fonts:  **[Ubuntu](https://fonts.google.com/specimen/Ubuntu)**,  **[Roboto](https://fonts.google.com/specimen/Roboto)**
 
 ---
 
