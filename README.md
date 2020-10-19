@@ -32,7 +32,7 @@
   </a>
   
   <a href="https://github.com/marcelo-rafael/nlw-03-happy/stargazers">
-    <img alt="Contributors" src="https://img.shields.io/github/contributors/marcelo-rafael/nlw-03-happy?style=flat-square?color=informational">
+    <img alt="Contributors" src="https://img.shields.io/github/contributors/marcelo-rafael/nlw-03-happy?style=flat-square&color=informational">
   </a>
   
   
