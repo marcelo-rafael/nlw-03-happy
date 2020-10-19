@@ -45,10 +45,9 @@
 	🚧  Happy 🚀 Finished 🚀 🚧
 </h4>
 
-
-
 # :pushpin: Table of Contents
 
+* [Link](#link-link)
 * [About](#computer-about)
 * [Features](#rocket-features)
 * [Layout](#art-layout)
@@ -60,6 +59,15 @@
 * [Author](#man-author)
 * [License](#closed_book-license)
 
+# To make this project more organized, it is divided into 3 different repositories.
+
+# :link: follow links:
+
+- [API Rest](https://github.com/marcelo-rafael/nlw-03-happy-backend-deploy)
+- [Web](https://github.com/marcelo-rafael/nlw-03-happy-frontend-deploy)
+- [Mobile](https://github.com/marcelo-rafael/nlw-03-happy-mobile-deploy)
+
+---
 
 # :computer: About
 
