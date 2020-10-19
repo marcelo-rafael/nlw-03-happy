@@ -51,25 +51,23 @@
 
 * [About](#computer-about)
 * [Features](#rocket-features)
+* [Layout](#art-layout)
+* [Challenge](#bookmark_tabs-challenge)
 * [Installation](#construction_worker-installation)
 * [Getting Started](#runner-getting-started)
 * [FAQ](#postbox-faq)
 * [Found a bug? Missing a specific feature?](#bug-issues)
 * [Contributing](#tada-contributing)
-* [Author](#closed_book-author)
+* [Author](#man-author)
 * [License](#closed_book-license)
 
 
 <p align="center">
- <a href="#about">About</a> •
- <a href="#features">Features</a> •
- <a href="#layout">Layout</a> • 
- <a href="#layout">Challenge</a> • 
- <a href="#how-it-works">How it works</a> • 
+
+
+
  <a href="#tech-stack">Tech Stack</a> • 
- <a href="#contributors">Contributors</a> • 
- <a href="#author">Author</a> • 
- <a href="#user-content-license">License</a>
+
 </p>
 
 
@@ -86,26 +84,20 @@ NLW is an online experience with lots of practical content, challenges and hacks
 ---
 
 # :rocket: Features
-
-- [x] Companies or entities can register on the web platform by sending:
-   - [x] an image of the collection point
-   - [x] entity name, email and whatsapp
-   - [x] and the address so that it can appear on the map
-   - [x] in addition to selecting one or more collection items:
-     - lamps
-     - Batteries
-     - papers and cardboard
-     - electronic waste
-     - organic waste
-     - kitchen oil
-
-- [x] Users have access to the mobile application, where they can:
+   
+- [x] Users can register on the web or mobile platform by sending:
+   - [x] The location on the map
+   - [x] name of the institution, about, whatsapp
+   - [x] photos of the institution
+   - [x] instructions on visitation, visitation hours and attendance at the weekend
+     
+- [x] Users have access to the web and mobile application, where they can:
    - [x] browse the map to see the registered institutions
-   - [x] contact the entity via E-mail or WhatsApp
+   - [x] get in touch via WhatsApp
 
 ---
 
-## 🎨 Layout
+# :art: Layout
 
 The application layout is available on Figma:
 
@@ -119,7 +111,7 @@ The application layout is available on Figma:
 
 ---
 
-## 🧠 Challenge
+# :bookmark_tabs: Challenge
 
 In the following link you can find the guide in Notion regarding the proposed challenges so that you can go the extra mile and further increase this application. There you will also find a guide showing the entire step by step of how to deploy both the backend and the frontend.
 
@@ -128,12 +120,10 @@ In the following link you can find the guide in Notion regarding the proposed ch
 
 ---
 
-
-
-## 🚀 How it works
+# :construction_worker: Installation
 
 This project is divided into three parts:
-1. Backend (server folder)
+1. Backend (backend folder)
 2. Frontend (web folder)
 3. Mobile (mobile folder)
 
@@ -150,19 +140,19 @@ In addition, it is good to have an editor to work with the code like [VSCode] (h
 ```bash
 
 # Clone this repository
-$ git clone https://github.com/marcelo-rafael/nlw-01-ecoleta
+$ git clone https://github.com/marcelo-rafael/nlw-03-ecoleta
 
 # Access the project folder cmd/terminal
-$ cd nlw-01-ecoleta
+$ cd nlw-03-happy
 
 # go to the server folder
-$ cd server
+$ cd backend
 
 # install the dependencies
-$ npm install
+$ yarn install
 
 # Run the application in development mode
-$ npm run dev:server
+$ yarn dev
 
 # The server will start at port: 3333 - go to http://localhost:3333
 
@@ -256,11 +246,13 @@ The following tools were used in the construction of the project:
 
 ---
 
+# :bug: Issues
 
+Feel free to **file a new issue** with a respective title and description on the the [nlw-03-happy](https://github.com/marcelo-rafael/nlw-03-happy/issues) repository. If you already found a solution to your problem, **i would love to review your pull request**! Have a look at our [contribution guidelines](https://github.com/marcelo-rafael/nlw-03-happy/blob/master/CONTRIBUTING.md) to find out about the coding standards.
 
 ---
 
-## :tada: Contributing
+# :tada: Contributing
 
 1. Fork the project.
 2. Create a new branch with your changes: `git checkout -b my-feature`
@@ -270,7 +262,7 @@ The following tools were used in the construction of the project:
 
 ---
 
-## Autor
+# :man: Autor
 
 <img  border-radius="50px" src="https://avatars0.githubusercontent.com/u/29902777?s=460&u=61d43667f33a45eb000a2af216e4abeb2d4a6717&v=4" width="100px" alt="Marcelo Rafael Gonçalves"/>
 
