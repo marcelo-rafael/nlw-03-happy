@@ -19,11 +19,10 @@
     <img alt="Repository issues" src="https://img.shields.io/github/issues/marcelo-rafael/nlw-03-happy">
   </a>
 
-  <a href="https://github.com/raphabarreto/happy/blob/master/LICENSE.md">
+  <a href="https://github.com/marcelo-rafael/nlw-03-happy/blob/master/LICENSE.md">
     <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
   <a>
-    
-   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+   
    <a href="https://github.com/marcelo-rafael/nlw-03-happy/stargazers">
     <img alt="Stargazers" src="https://img.shields.io/github/stars/marcelo-rafael/nlw-03-happy?style=social">
   </a>
