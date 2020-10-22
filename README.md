@@ -44,6 +44,7 @@
 <h4 align="center"> 
 	🚧  Happy 🚀 Finished 🚀 🚧
 </h4>
+<p align="center">Deployed <a href="https://nlw03-happy-deploy.netlify.app/">here</a>.</p>
 
 # :pushpin: Table of Contents
 
