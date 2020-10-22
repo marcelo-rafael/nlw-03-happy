@@ -63,6 +63,9 @@
 
 # :link: follow links:
 
+<a href="https://github.com/marcelo-rafael/nlw-03-happy-backend-deploy">
+  API Rest
+</a>
 - [API Rest](https://github.com/marcelo-rafael/nlw-03-happy-backend-deploy)
 - [Web](https://github.com/marcelo-rafael/nlw-03-happy-frontend-deploy)
 - [Mobile](https://github.com/marcelo-rafael/nlw-03-happy-mobile-deploy)
